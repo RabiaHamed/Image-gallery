@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Grape+Nuts&family=Jost:ital,wght@1,500&family=Lemon&family=Miltonian+Tattoo&family=Quicksand&display=swap" rel="stylesheet">
+    <title>Image Gellery</title>
+</head>
+<body>
+    <div class="full-img" id="fullImage">
+        <img src="img/emil-diallo-H-Y7mdumq1w-unsplash.jpg" style="height: 300px;" id="changImg">
+        <span onclick="closePic()">X</span>
+    </div>
+    <div class="img-gallery">
+    <h1>Image <span style="color: rgb(173, 134, 5);"> Gallery</span>&#128525;</h1>
+        <img src="img/b92213bf-6630-4c1b-a10e-2444d10cd8a9.webp" style="height: 200px; width: 200px; object-fit: cover;" onclick="openImg(this.src)">
+        <img src="img/main-qimg-371a4222ee1dd52d3fc619aceefd9a59.webp"  style="height: 200px; width: 200px; object-fit: cover;" onclick="openImg(this.src)">
+        <img src="img/emil-diallo-H-Y7mdumq1w-unsplash.jpg"  style="height: 200px; width: 200px; object-fit: cover;" onclick="openImg(this.src)">
+        <!-- <img src="img/DSLR-O.jpg"  style="height: 200px; width: 200px;" onclick="openImg(this.src)"> -->
+        <img src="img/f2dbfe0596fce19758209a8210f2df62.jpg"  style="height: 200px; width: 200px; object-fit: cover;" onclick="openImg(this.src)">
+        <img src="img/neom-HXW26Gw8bk4-unsplash.jpg"  style="height: 200px; width: 200px; object-fit: cover;" onclick="openImg(this.src)">
+        <!-- <img src="img/Coffee-photography-tutorial-4.webp"  style="height: 200px; width: 200px;" onclick="openImg(this.src)"> -->
+
+    </div>
+    <script src="code.js"></script>
+    <!-- <script>
+        var fullImage = document.getElementById("fullImage");
+        var fullPict = document.getElementById("changImg");
+
+        function openImg(pic) {
+            fullImage.style.display = "flex";
+            fullPict.src = pic;
+        }
+        function closePic() {
+            fullImage.style.display = "none";
+            
+        }
+    </script> -->
+    
+</body>
+</html>
